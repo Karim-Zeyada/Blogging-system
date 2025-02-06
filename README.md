@@ -10,16 +10,14 @@ This is a Laravel-based blogging system that allows users to create, edit, and m
 
 - Displays a list of all blog posts with pagination.
 - Users can browse through published posts.
-  
-![image](https://github.com/user-attachments/assets/43de17f9-5f9e-4e80-aa20-592d3f588924)
+  ![home page](https://github.com/user-attachments/assets/4dcb4ec2-2c75-4b15-a77b-af7dbc7b1861)
 
 
 ### 2. Post Management
 
 - Authenticated users can create, edit, update, and delete posts.
 - Users can only manage their own posts.
-  
-![image](https://github.com/user-attachments/assets/42084353-83ff-4e11-abc7-39120f8be984)
+  ![crud](https://github.com/user-attachments/assets/6bb25102-ddee-4393-abde-ff1a62bfaa6f)
 
 
 ### 3. Post Details
@@ -44,8 +42,7 @@ This is a Laravel-based blogging system that allows users to create, edit, and m
 - Description must be at least 10 characters long.
 - Ensures updating a post without changing the title still works.
 - Displays error messages for failed validation attempts.
-
-![image](https://github.com/user-attachments/assets/9afa5492-8c3d-4b66-aa2c-f5f31cb77fb4)
+  ![Screenshot (65)](https://github.com/user-attachments/assets/1176da0d-e18c-473a-8b20-82930bdca957)
 
 
 ### 7. Formatting
@@ -54,13 +51,13 @@ This is a Laravel-based blogging system that allows users to create, edit, and m
 
 ### 8. Seeding
 
-- Uses PostSeeder & PostFactory to generate 500 posts.
+- Uses `PostSeeder` & `PostFactory` to generate 500 posts.
 - Run seeding via `php artisan db:seed`.
 
 ### 9. Pagination
 
-- The Index page includes pagination with navigation links.
-![image](https://github.com/user-attachments/assets/be319674-b820-4085-81ee-495e5705bd52)
+- The index page includes pagination with navigation links.
+  ![image](https://github.com/user-attachments/assets/ae7daf3c-bd30-4d2a-8525-ea68849ef0e1)
 
 
 ### 10. Comments Section
@@ -69,22 +66,28 @@ This is a Laravel-based blogging system that allows users to create, edit, and m
 
 ### 11. User Profiles & Avatars
 
-- Each user has a profile page displaying their information and profile picture
+- Each user has a profile page displaying their information and profile picture.
 - Users can upload an avatar.
+  ![image](https://github.com/user-attachments/assets/9821020e-cd8c-4c9f-9336-62b22f4b608a)
+
 
 ### 12. Interactions
 
-- Users can only view "read", comment on, like, and dislike posts.
-- Users can manage their own posts "CRUD". they can Create, view, delete, edit, update, like and comment on their posts.
+- Users can read, comment on, like, and dislike posts.
+- Users can manage their own posts (Create, Read, Update, Delete, Like, and Comment).
 
 ### 13. Post View Count & Likes
 
-- Tracks and stores post Like counts.
+- Tracks and stores post like counts.
 - Users can like or dislike posts.
 
 ### 14. Dark Mode
 
 - Includes a dark mode option for user convenience.
+
+## Demo
+
+A video demo of the project will be available to showcase its features and functionality. [Watch the demo here](https://youtu.be/XEQxElapRo8)
 
 ## Installation Guide
 
@@ -128,5 +131,4 @@ Visit `http://127.0.0.1:8000` to access the application.
 ## Contributing
 
 Feel free to fork this repository and submit pull requests.
-
 
